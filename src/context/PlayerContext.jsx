@@ -24,7 +24,8 @@ const PlayerContextProvider = (props) => {
   const [songsData, setSongsData] = useState([]);
   const [albumsData, setAlbumsData] = useState([]);
 
-  const url = "http://localhost:4000";
+  // const url = "http://localhost:4000";
+  const url = "https://spotify-backend-m6qf.onrender.com";
 
   const getSongsData = async () => {
     try {
